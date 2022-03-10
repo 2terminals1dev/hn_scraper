@@ -1,9 +1,11 @@
 import requests
 from bs4 import BeautifulSoup
 
+URL = "https://news.ycombinator.com/news"
+
 
 def main():
-    resp = requests.get("https://news.ycombinator.com/news")
+    resp = requests.get(URL)
 
     print(resp.text)
 
