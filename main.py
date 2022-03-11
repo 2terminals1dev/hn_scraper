@@ -6,7 +6,6 @@ URL = "https://news.ycombinator.com/news"
 
 def main():
     resp = requests.get(URL)
-
     print(resp.text)
 
 
